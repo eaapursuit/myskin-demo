@@ -1,84 +1,151 @@
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500&family=Sentient:wght@400;500&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
-    @font-face {
-        font-family: 'Sentient';
-        src: url('/src/fonts/Sentient-Regular.otf') format('opentype'),
-             url('/src/fonts/Sentient-Regular.otf') format('truetype');
-        font-weight: 400;
-        font-style: normal;
-    }
+  @font-face {
+    font-family: "Sentient";
+    src: url("/src/fonts/Sentient-Regular.otf") format("opentype"),
+      url("/src/fonts/Sentient-Regular.otf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+  }
 
-    @font-face {
-        font-family: 'Sentient';
-        src: url('/src/fonts/Sentient-Medium.otf') format('opentype'),
-             url('/src/fonts/Sentient-Medium.otf') format('truetype');
-        font-weight: 500;
-        font-style: normal;
-    }
+  @font-face {
+    font-family: "Sentient";
+    src: url("/src/fonts/Sentient-Medium.otf") format("opentype"),
+      url("/src/fonts/Sentient-Medium.otf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+  }
 
-    @font-face {
-        font-family: 'Plus Jakarta';
-        src: url('src/fonts/PlusJakartaSans-Regular.ttf') format('opentype');
-        font-weight: 400;
-        font-style: normal;
-    }
+  @font-face {
+    font-family: "Plus Jakarta";
+    src: url("src/fonts/PlusJakartaSans-Regular.ttf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+  }
 
-    body {
-        @apply text-base leading-relaxed;
-      }
-    
-      h1, h2, h3, h4, h5, h6 {
-        @apply  font-bold ;
-        line-height: 1.2;
-      }
-    
-      h1 { @apply text-4xl mt-8 mb-4; }
-      h2 { @apply text-3xl mt-6 mb-3; }
-      h3 { @apply text-2xl mt-5 mb-2; }
-      h4 { @apply text-xl mt-4 mb-2; }
-      h5 { @apply text-lg mt-3 mb-2; }
-      h6 { @apply text-base mt-2 mb-2; }
-    
-      p {
-        @apply mb-4;
-      }
-    
-      a {
-        @apply  underline;
-      }
-    
-      /* a:hover {
+  body {
+    @apply text-base leading-relaxed;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold;
+    line-height: 1.2;
+  }
+
+  h1 {
+    @apply text-4xl mt-8 mb-4;
+  }
+  h2 {
+    @apply text-3xl mt-6 mb-3;
+  }
+  h3 {
+    @apply text-2xl mt-5 mb-2;
+  }
+  h4 {
+    @apply text-xl mt-4 mb-2;
+  }
+  h5 {
+    @apply text-lg mt-3 mb-2;
+  }
+  h6 {
+    @apply text-base mt-2 mb-2;
+  }
+
+  p {
+    @apply mb-4;
+  }
+
+  a {
+    @apply underline;
+  }
+
+  /* a:hover {
         @apply ;
       } */
-    
-      ul, ol {
-        @apply pl-6 mb-4;
-      }
-    
-      li {
-        @apply mb-2;
-      }
-    
-      /* blockquote {
+
+  ul,
+  ol {
+    @apply pl-6 mb-4;
+  }
+
+  li {
+    @apply mb-2;
+  }
+
+  /* blockquote {
         @apply border-l-4 border-neutral pl-4 italic text-neutral;
         margin: 1.5rem 0;
       } */
-    
-      /* code {
+
+  /* code {
         @apply font-mono text-sm bg-neutralAlt px-1 py-0.5 rounded;
       } */
 }
 
 @layer components {
-       
 }
 
 @layer utilities {
-    
+  .text-cream {
+    color: #fce4d8;
+  }
+  .bg-cream {
+    background-color: #fce4d8;
+  }
+  .text-tan {
+    color: #a68671;
+  }
+  .bg-tan {
+    background-color: #a68671;
+  }
+  .text-sage {
+    color: #b2b379;
+  }
+  .bg-sage {
+    background-color: #b2b379;
+  }
+  .text-chocolate {
+    color: #472816;
+  }
+  .bg-chocolate {
+    background-color: #472816;
+  }
+  .text-charcoal {
+    color: #0a0a06;
+  }
+  .bg-charcoal {
+    background-color: #0a0a06;
+  }
+  .text-lightgray {
+    color: #f8f6f6;
+  }
+  .bg-lightgray {
+    background-color: #f8f6f6;
+  }
+  .border-tan {
+    color: #a68671;
+  }
+
+  .scroll-area {
+    height: calc(100vh);
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+  }
+
+  .snap-section {
+    height: 100vh;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+  }
 }
