@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,25 +8,24 @@
 @layer base {
   @font-face {
     font-family: "Sentient";
-    src: url("/src/fonts/Sentient-Regular.otf") format("opentype"),
-      url("/src/fonts/Sentient-Regular.otf") format("truetype");
+    src: url("/fonts/Sentient-Regular.otf") format("opentype");
     font-weight: 400;
     font-style: normal;
   }
 
   @font-face {
     font-family: "Sentient";
-    src: url("/src/fonts/Sentient-Medium.otf") format("opentype"),
-      url("/src/fonts/Sentient-Medium.otf") format("truetype");
+    src: url("/fonts/Sentient-Medium.otf") format("opentype");
     font-weight: 500;
     font-style: normal;
   }
 
   @font-face {
-    font-family: "Plus Jakarta";
-    src: url("src/fonts/PlusJakartaSans-Regular.ttf") format("opentype");
+    font-family: "Plus Jakarta Sans";
+    src: url("/fonts/PlusJakartaSans-Regular.ttf") format("truetype");
     font-weight: 400;
     font-style: normal;
+    font-display: swap;
   }
 
   body {

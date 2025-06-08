@@ -2,42 +2,30 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className=" bg-cream  flex items-center flex-row px-16 py-16 min-h-screen ">
+    <div className="bg-tan flex flex-col items-center justify-center min-h-screen px-6 py-10 sm:px-10 md:px-16 md:py-16 font-sans">
       {/* Left column: badge + text + buttons */}
-      <div className="space-y-8">
+      <div className="text-center max-w-xl space-y-8">
         {/* Badge */}
-        <div className="inline-flex items-center px-4 py-2 bg-sage text-lightgray text-sm font-medium rounded-full shadow-sm">
+        <div className="inline-block px-4 py-2 bg-sage text-lightgray text-sm font-medium rounded-full shadow-sm">
           About Our Mission
         </div>
 
-        {/* Title */}
-        <h2 className="text-4xl lg:text-6xl font-bold text-charcoal leading-tight">
-          Something can go here(optional){" "}
-        </h2>
-        <span className="text-tan block">Like Skincare</span>
-
-        {/* Subtitle */}
-        <h3 className=" text-xl text-chocolate font-medium opacity-80">
-          Subtitle goes here
-        </h3>
-
         {/* Body copy */}
-        <p className="text-lg text-chocolate max-w-md leading-relaxed">
-          A Netlify Create website is a git repo that you own. Every code commit
-          is instantly reflected in the visual editor and since every visual
-          edit is a git commit, git workflows and collaboration just work.
+        <p className="text-lg text-chocolate max-w-md leading-relaxed mx-auto">
+          MySkin is a digital platform dedicated to helping people navigate
+          their acne journey with confidence. Designed to bridge the knowledge
+          gaps that often prolong skin struggles, MySkin connects users to niche
+          skincare communities while providing science-backed educational
+          resources. Currently, MySkin lives as a growing community on Substack,
+          where founder, Toluwani, shares daily skin journals, expert insights,
+          and interviews with people across all skin types. Slated to launch as
+          an app in early to mid-2026, MySkin will revolutionize the way people
+          access personalized skincare solutions and peer support.
         </p>
-
-        {/* {Call to Action Buttons} */}
-        <div className="flex space-x-4 pt-4">
-          <button className="bg-chocolate text-lightgray px-8 py-4 rounded-full font-medium hover:bg-charcoal transition-colors duration-300 shadow-lg hover-shadow-xl">
-            Get Started
-          </button>
-          <button className="border-2 border-tan text-tan px-8 py-4 rounded-full font-medium hover:bg-tan hover:text-lightgray transition-all duration-300">
-            Learn More{" "}
-          </button>
-        </div>
       </div>
+      <div className="font-sans">Plus Jakarta Sans text</div>
+
+      
     </div>
   );
 };

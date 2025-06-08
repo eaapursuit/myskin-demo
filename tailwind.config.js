@@ -19,10 +19,11 @@ export default {
         tan: "#A68671",
         sage: "#B2B379",
         chocolate: "#472816",
+        caramel: "#E4C6B4",
         charcoal: "#0A0A06",
       },
       fontFamily: {
-        sans: ["Plus Jakarta", "sans-serif"],
+        sans: ["Plus Jakarta Sans", "sans-serif"],
         headline: ["Sentient", "sans-serif"],
         subheadline: ["Sentient", "sans-serif"],
       },
