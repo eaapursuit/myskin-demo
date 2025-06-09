@@ -2,8 +2,8 @@ import React from "react";
 import { useTheme } from "@mui/material/styles"
 import { MobileStepper } from "@mui/material";
 import Button from "@mui/material/Button";
-import KeyboardArrowLeftIcon from '@mui/icons-material/KeyBoardArrowLeft';
-import KeyboardArrowRightIcon from '@mui/icons-material/KeyBoardArrowRight';
+import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
+import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 
 export default function DotsMobileStepper() {
   const theme = useTheme();
