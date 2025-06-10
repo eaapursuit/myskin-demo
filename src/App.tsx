@@ -10,6 +10,19 @@ import EmailSignUp from "./components/EmailSignUp.jsx";
 export default function App() {
   const mainRef = useRef(null);
   return (
+    /*const meta = {
+    title: '[insert title]',
+    description: '[insert description]',
+    canonical: '[insert webpage link]',
+    meta: {
+      charset: 'utf-8',
+      name: {
+        viewport: `width=device-width, initial-scale=1.0`,
+        keywords: `[inserst,tags]`
+      }
+    }
+  };
+    */
     <div className="bg-lightgray ">
       <Header />
 
