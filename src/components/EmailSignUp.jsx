@@ -65,14 +65,14 @@ const EmailSignUp = () => {
   };
 
   return (
-    <div className="bg-[#aa663c] py-20 px-6">
+    <div className="bg-[#aa663c] py-8 md:py-20 px-4 md:px-6">
       <div className="max-w-2xl mx-auto">
-        <div className="text-center mb-12">
-          <div className="inline-flex items-center px-4 py-2 bg-[#FCE4D8] text-[#472816] text-sm font-medium rounded-full shadow-sm mb-6">
+        <div className="text-center mb-8 md:mb-12">
+          <div className="inline-flex items-center px-3 py-2 bg-[#FCE4D8] text-[#472816] text-xs md:text-sm font-medium rounded-full shadow-sm mb-6">
             Join the Waitlist
           </div>
-          <h2 className="text-3xl font-bold text-[#F8F6F6] mb-4">
-            Stay Connected with MySkin
+          <h2 className="text-3xl font-bold text-[#F8F6F6] mb-2">
+            Join the Waitlist
           </h2>
           <p className="text-[#F8F6F6] opacity-90 text-lg leading-relaxed">
             Be the first to know when our app is avaialble for beta testing.

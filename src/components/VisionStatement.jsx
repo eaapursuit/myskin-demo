@@ -13,7 +13,7 @@ MySkin is built on the belief that the journey to clear skin should not be walke
                 </h3>
               </div>
               
-              <div className="grid grid-cols-3 gap-2 max-w-4xl mx-auto">
+              <div className="grid grid-cols-3 gap-2 md:gap-8 max-w-4xl mb-6 md:mb-8 mx-auto">
                 {[
                   { 
                     // icon: "🔬", 
@@ -36,14 +36,14 @@ MySkin is built on the belief that the journey to clear skin should not be walke
                   
                 ].map((value, i) => (
                   <div key={i} className="group">
-                    <div className="bg-[#0A0A06] pt-2  rounded-lg md:rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 border border-[#A68671]/20 hover:border-[#A68671]/40">
+                    <div className="bg-[#0A0A06] p-3 md:p-8 rounded-lg md:rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 border border-[#A68671]/20 hover:border-[#A68671]/40">
                       <div 
                         className="w-8 h-8 md:w-16 md:h-16 rounded-full flex items-center justify-center mb-3 md:mb-6 mx-auto"
                         style={{ backgroundColor: value.color }}
                       >
                         {value.icon}
                       </div>
-                      <h3 className="text-xs font-bold text-[#F8F6F6] mb-4 text-center">
+                      <h3 className="text-xs md:text-xl font-bold text-[#F8F6F6] mb-2 md:mb-4 text-center">
                         {value.title}
                       </h3>
                       <p className="text-[#F8F6F6] text-xs opacity-75 text-center leading-relaxed">
@@ -53,7 +53,7 @@ MySkin is built on the belief that the journey to clear skin should not be walke
                   </div>
                 ))}
               </div>
-              <h3 className="text-2xl font-bold text-[#F8F6F6]">
+              <h3 className="text-lg md:text-2xl font-bold text-[#F8F6F6] px-2">
 Through these pillars, MySkin is redefining acne care—because everyone deserves to feel confident in their skin.
                 </h3>
             </div>
