@@ -26,20 +26,20 @@ export default function App() {
     <div className="bg-lightgray ">
       <Header />
 
-      <main id="scroll-area" className="scroll-area ">
-        <section id="whatismyskin" className="snap-section pt-20">
+      <main id="scroll-area" className="h-screen overflow-y-auto snap-y snap-mandatory pt-20 ">
+        <section id="whatismyskin" className="snap-start min-h-[calc(100vh-5rem)] flex items-center md:px-16 ">
           <WhatIsMySkin />
         </section>
-        <section id="about" className="snap-section pt-20">
+        <section id="about" className="snap-start min-h-[calc(100vh-5rem)] flex flex-col justify-center ">
           <About />
         </section>
-        <section id="visionstatement" className="snap-section pt-20">
+        <section id="visionstatement" className="snap-start min-h-[calc(100vh-5rem)] flex flex-col justify-center">
           <VisionStatement />
         </section>
-        <section id="missionstatement" className="snap-section pt-20">
+        <section id="missionstatement" className="snap-section ">
           <MissionStatement />
         </section>
-        <section id="emailsignup" className="snap-section pt-5">
+        <section id="emailsignup" className="snap-section ">
           <EmailSignUp />
         </section>
       </main>

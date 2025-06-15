@@ -13,7 +13,7 @@ const WhatIsMySkin = () => {
           niche skincare communities and providing educational resources needed
           to close knowledge gaps that often prolong the acne struggle.
         </p>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 mb-10 gap-8">
+        <div className="grid grid-cols-1  md:grid-cols-3 mb-10 gap-8">
           {[
             {
               icon: "🔍",
@@ -31,7 +31,7 @@ const WhatIsMySkin = () => {
               desc: "Monitor your journey",
             },
           ].map((feature, i) => (
-            <div key={i} className="bg-sage p-8 w-full max-w-wd mx-auto rounded-2xl shadow-lg">
+            <div key={i} className="bg-sage p-8 md:p-6 w-full max-w-wd mx-auto rounded-2xl shadow-lg">
               <div className="text-2xl sm:text-3xl lg:text-4xl mb-3">{feature.icon}</div>
               <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-[#472816] mb-2">
                 {feature.title}

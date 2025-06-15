@@ -23,7 +23,6 @@ const About = () => {
           access personalized skincare solutions and peer support.
         </p>
       </div>
-      <div className="font-sans">Plus Jakarta Sans text</div>
 
       
     </div>

@@ -2,18 +2,18 @@ import React from "react";
 
 const ValueStatement = () => {
   return (
-    <div className="h-full flex items-center bg-[#aa663c] justify-center px-16 font-sans">
+    <div className="min-h-screen flex items-center bg-[#aa663c] justify-center px-4 font-sans">
             <div className="max-w-6xl mx-auto">
-              <div className="text-center mb-16">
-                <div className="inline-flex items-center px-4 py-2 bg-[#FCE4D8] text-[#472816] text-sm font-medium rounded-full shadow-sm mb-8">
+              <div className="text-center mb-8 md:mb-16">
+                <div className="inline-flex items-center px-4 py-2 bg-[#FCE4D8] text-[#472816] text-sm font-medium rounded-full shadow-sm mb-6 md:mb-8">
                   Our Values
                 </div>
-                <h3 className="text-2xl font-bold text-[#F8F6F6] mb-6 font-sans">
+                <h3 className="text-lg md:text-2xl font-bold text-[#F8F6F6] mb-6 font-sans px-2">
 MySkin is built on the belief that the journey to clear skin should not be walked alone. We are committed to:
                 </h3>
               </div>
               
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-4xl mx-auto">
+              <div className="grid grid-cols-3 gap-2 max-w-4xl mx-auto">
                 {[
                   { 
                     // icon: "🔬", 
@@ -36,24 +36,24 @@ MySkin is built on the belief that the journey to clear skin should not be walke
                   
                 ].map((value, i) => (
                   <div key={i} className="group">
-                    <div className="bg-[#0A0A06] p-8 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 border border-[#A68671]/20 hover:border-[#A68671]/40">
+                    <div className="bg-[#0A0A06] pt-2  rounded-lg md:rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 border border-[#A68671]/20 hover:border-[#A68671]/40">
                       <div 
-                        className="w-16 h-16 rounded-full flex items-center justify-center text-2xl mb-6 mx-auto"
+                        className="w-8 h-8 md:w-16 md:h-16 rounded-full flex items-center justify-center mb-3 md:mb-6 mx-auto"
                         style={{ backgroundColor: value.color }}
                       >
                         {value.icon}
                       </div>
-                      <h3 className="text-xl font-bold text-[#F8F6F6] mb-4 text-center">
+                      <h3 className="text-xs font-bold text-[#F8F6F6] mb-4 text-center">
                         {value.title}
                       </h3>
-                      <p className="text-[#F8F6F6] opacity-75 text-center leading-relaxed">
+                      <p className="text-[#F8F6F6] text-xs opacity-75 text-center leading-relaxed">
                         {value.desc}
                       </p>
                     </div>
                   </div>
                 ))}
               </div>
-              <h3 className="text-2xl font-bold text-[#F8F6F6] mb-6">
+              <h3 className="text-2xl font-bold text-[#F8F6F6]">
 Through these pillars, MySkin is redefining acne care—because everyone deserves to feel confident in their skin.
                 </h3>
             </div>
