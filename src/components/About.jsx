@@ -11,6 +11,7 @@ const About = () => {
         </div>
 
         {/* Body copy */}
+        <div className="bg-[#F8F6F6] rounded-3xl p-12 shadow-2xl">
         <p className="text-lg text-chocolate max-w-md leading-relaxed mx-auto">
           MySkin is a digital platform dedicated to helping people navigate
           their acne journey with confidence. Designed to bridge the knowledge
@@ -22,6 +23,7 @@ const About = () => {
           an app in early to mid-2026, MySkin will revolutionize the way people
           access personalized skincare solutions and peer support.
         </p>
+        </div>
       </div>
 
       

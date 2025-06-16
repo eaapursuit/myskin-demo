@@ -5,7 +5,7 @@ import DotsMobileStepper from "./MobileStepper";
 
 const WhatIsMySkin = () => {
   return (
-    <div className="min-h-screen flex flex-col items-center sm:justify-center bg-cream pt-32 pb-8 px-4 sm:px-8 md:px-16 py-6 sm:py-12 font-sans">
+    <div className="min-h-screen w-full flex flex-col items-center sm:justify-center bg-cream pt-32 pb-8 px-4 sm:px-8 md:px-16 py-6 sm:py-12 font-sans">
       <div className="max-w-4xl mx-auto text-center space-y-6 ">
        {/* Badge */}
         <div className="inline-flex items-center px-3 py-1.5 sm:px-4 sm:py-2 bg-[#F8F6F6] text-[#472816] text-xs sm:text-sm font-medium rounded-full shadow-sm">

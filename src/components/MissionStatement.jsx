@@ -8,7 +8,7 @@ const MissionStatement = () => {
                 Our Mission
               </div>
               <div className="bg-[#F8F6F6] rounded-3xl p-12 shadow-2xl">
-                <p className="text- text-[#472816] leading-relaxed font-medium font-sans sm:text-sm">
+                <p className=" text-[#472816] leading-relaxed font-medium font-sans sm:text-sm">
                   "At MySkin, our mission is to streamline acne solutions by empowering individuals with the knowledge, community, 
                   and tools they need to make informed skincare decisions. We believe that access to accurate, 
                   science-backed information—paired with a supportive community—can transform the way people manage their skin"

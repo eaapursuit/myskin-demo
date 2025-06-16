@@ -27,19 +27,19 @@ export default function App() {
       <Header />
 
       <main id="scroll-area" className="h-screen overflow-y-auto snap-y snap-mandatory pt-20 ">
-        <section id="whatismyskin" className="snap-start min-h-[calc(100vh-5rem)] flex items-center md:px-16 ">
+        <section id="whatismyskin" className="snap-start w-full bg-cream min-h-screen flex overflow-y-auto ">
           <WhatIsMySkin />
         </section>
         <section id="about" className="snap-start min-h-[calc(100vh-5rem)] flex flex-col justify-center ">
           <About />
         </section>
-        <section id="visionstatement" className="snap-start min-h-[calc(100vh-5rem)] flex flex-col justify-center">
+        <section id="visionstatement" className="snap-start w-full min-h-[calc(100vh-5rem)] flex flex-col justify-center">
           <VisionStatement />
         </section>
         <section id="missionstatement" className="snap-section ">
           <MissionStatement />
         </section>
-        <section id="emailsignup" className="snap-section ">
+        <section id="emailsignup" className="snap-section w-full min-h-[calc(100vh-5rem)] flex flex-col justify-center">
           <EmailSignUp />
         </section>
       </main>
