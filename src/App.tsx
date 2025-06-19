@@ -9,13 +9,14 @@ import EmailSignUp from "./components/EmailSignUp.jsx";
 import DemoContainer from "./components/DemoContainer.jsx";
 import DotsMobileStepper from "./components/MobileStepper.jsx";
 
+
 export default function App() {
   const mainRef = useRef(null);
   const [activeStep, setActiveStep] = useState(0);
 
   const pages = [
     <WhatIsMySkin onTryApp={() => setActiveStep(1)} />,
-    <DemoContainer activeStep={activeStep} setActiveStep={setActiveStep} key={1}/>,
+    <DemoContainer onExit={() => setActiveStep(0)} key="demo"/>,
   ];
   return (
     <div className="bg-lightgray ">
