@@ -67,50 +67,83 @@ export default function DemoContainer({ onExit }) {
       </div>
     </div>,
 
-    //demo mockup of the upload photo-modal
-    <div key={"upload-photo-modal"} className="text-center p-8">
-      <img src={uploadModal} alt="MySkin iPhone Login + SignUp" />
+    //4. Photo-modal
+    <div
+      key={"upload-photo-modal"}
+      className="min-h-screen flex items-center justify-center p-4"
+    >
+      <div className="max-w-sm mx-auto">
+        <img
+          src={uploadModal}
+          alt="MySkin Upload Photo Modal"
+          className="w-full h-auto rounded-2xl"
+        />
+      </div>
     </div>,
 
-    //demo mockup of the skin type and concerns page
-    <div key={"skin-type-concerns"} className="text-center p-8">
-      <img src={skinTypeConcerns} alt="MySkin iPhone Login + SignUp" />
+    //5. Skin Type and Concerns
+    <div
+      key={"skin-type-concerns"}
+      className="min-h-screen flex items-center justify-center p-4"
+    >
+      <div className="max-w-sm mx-auto">
+        <img
+          src={skinTypeConcerns}
+          alt="MySkin Skin Type and Concerns"
+          className="w-full h-auto rounded-2xl"
+        />
+      </div>
     </div>,
 
-    //demo mockup of the skin goals showinfg the seach bar and ingredient list
-    <div key={"skin-goals-ingredients"} className="text-center p-8">
-      <img src={skinGoalsIngredients} alt="MySkin iPhone Login + SignUp" />
+    //6. Skin Goals and Ingredient List
+    <div key={"skin-goals-ingredients"} className="min-h-screen flex items-center justify-center p-4">
+      <div  className="max-w-sm mx-auto">
+        <img src={skinGoalsIngredients} alt="MySkin iPhone Login + SignUp" className="w-full h-auto rounded-2xl" />
+      </div>
     </div>,
 
-    //demo mockup of the completed skin goals and concerns page
-    <div key={"skin-gc-complete"} className="text-center p-8">
-      <img src={skinGoalsComplete} alt="MySkin iPhone Login + SignUp" />
+    //7. Skin Goals and Concerns Complete
+    <div key={"skin-gc-complete"} className="min-h-screen flex items-center justify-center p-4">
+      <div  className="max-w-sm mx-auto">
+        <img src={skinGoalsComplete} alt="MySkin iPhone Login + SignUp" className="w-full h-auto rounded-2xl" />
+      </div>
     </div>,
 
-    //demo mockup of welcome landing page showing the different navigations to go to
-    <div key={"welcome"} className="text-center p-8">
-      <img src={welcome} alt="MySkin iPhone Login + SignUp" />
+    //8.Welcome page
+    <div key={"welcome"} className="min-h-screen flex items-center justify-center p-4" >
+      <div className="max-w-sm mx-auto" >
+        <img src={welcome} alt="MySkin iPhone Login + SignUp" className="w-full h-auto rounded-2xl"/>
+      </div>
     </div>,
 
-    //demo mockup of profile showing followers and a recap of the skin type and goals
-    <div key={"profile"} className="text-center p-8">
-      <img src={profile} alt="MySkin iPhone Login + SignUp" />
+    //9. Demo Profile
+    <div key={"profile"} className="min-h-screen flex items-center justify-center p-4">
+      <div  className="max-w-sm mx-auto">
+        <img src={profile} alt="MySkin iPhone Login + SignUp" className="w-full h-auto rounded-2xl"/>
+      </div>
     </div>,
 
-    //demo mockup of different communities to join
-    <div key={"communities"} className="text-center p-8">
-      <img src={communities} alt="MySkin iPhone Login + SignUp" />
+    //10. Demo Communities
+    <div key={"communities"} className="min-h-screen flex items-center justify-center p-4">
+      <div  className="max-w-sm mx-auto">
+        <img src={communities} alt="MySkin iPhone Login + SignUp" className="w-full h-auto rounded-2xl"/>
+      </div>
     </div>,
 
-    // final page showing your feed and the deffirent posts based on your matching goals and concerns as well as ingredient lists
-    <div key={"feed"} className="text-center p-8">
-      <img src={feed} alt="MySkin feed" />
-      <button
-        className="px-4 py-2 bg-cream text-white rounded"
-        onClick={() => setActiveStep(0)}
-      >
-        Done
-      </button>
+    //11. Demo Feed
+    <div
+      key={"feed"}
+      className="min-h-screen flex items-center justify-center p-4"
+    >
+      <div className="max-w-sm mx-auto">
+        <img src={feed} alt="MySkin feed" />
+        <button
+          className="w-full h-auto rounded-2xl"
+          onClick={() => setActiveStep(0)}
+        >
+          Done
+        </button>
+      </div>
     </div>,
   ];
 
