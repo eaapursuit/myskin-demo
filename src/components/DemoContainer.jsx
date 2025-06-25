@@ -96,37 +96,72 @@ export default function DemoContainer({ onExit }) {
     </div>,
 
     //6. Skin Goals and Ingredient List
-    <div key={"skin-goals-ingredients"} className="min-h-screen flex items-center justify-center p-4">
-      <div  className="max-w-sm mx-auto">
-        <img src={skinGoalsIngredients} alt="MySkin iPhone Login + SignUp" className="w-full h-auto rounded-2xl" />
+    <div
+      key={"skin-goals-ingredients"}
+      className="min-h-screen flex items-center justify-center p-4"
+    >
+      <div className="max-w-sm mx-auto">
+        <img
+          src={skinGoalsIngredients}
+          alt="MySkin iPhone Login + SignUp"
+          className="w-full h-auto rounded-2xl"
+        />
       </div>
     </div>,
 
     //7. Skin Goals and Concerns Complete
-    <div key={"skin-gc-complete"} className="min-h-screen flex items-center justify-center p-4">
-      <div  className="max-w-sm mx-auto">
-        <img src={skinGoalsComplete} alt="MySkin iPhone Login + SignUp" className="w-full h-auto rounded-2xl" />
+    <div
+      key={"skin-gc-complete"}
+      className="min-h-screen flex items-center justify-center p-4"
+    >
+      <div className="max-w-sm mx-auto">
+        <img
+          src={skinGoalsComplete}
+          alt="MySkin iPhone Login + SignUp"
+          className="w-full h-auto rounded-2xl"
+        />
       </div>
     </div>,
 
     //8.Welcome page
-    <div key={"welcome"} className="min-h-screen flex items-center justify-center p-4" >
-      <div className="max-w-sm mx-auto" >
-        <img src={welcome} alt="MySkin iPhone Login + SignUp" className="w-full h-auto rounded-2xl"/>
+    <div
+      key={"welcome"}
+      className="min-h-screen flex items-center justify-center p-4"
+    >
+      <div className="max-w-sm mx-auto">
+        <img
+          src={welcome}
+          alt="MySkin iPhone Login + SignUp"
+          className="w-full h-auto rounded-2xl"
+        />
       </div>
     </div>,
 
     //9. Demo Profile
-    <div key={"profile"} className="min-h-screen flex items-center justify-center p-4">
-      <div  className="max-w-sm mx-auto">
-        <img src={profile} alt="MySkin iPhone Login + SignUp" className="w-full h-auto rounded-2xl"/>
+    <div
+      key={"profile"}
+      className="min-h-screen flex items-center justify-center p-4"
+    >
+      <div className="max-w-sm mx-auto">
+        <img
+          src={profile}
+          alt="MySkin iPhone Login + SignUp"
+          className="w-full h-auto rounded-2xl"
+        />
       </div>
     </div>,
 
     //10. Demo Communities
-    <div key={"communities"} className="min-h-screen flex items-center justify-center p-4">
-      <div  className="max-w-sm mx-auto">
-        <img src={communities} alt="MySkin iPhone Login + SignUp" className="w-full h-auto rounded-2xl"/>
+    <div
+      key={"communities"}
+      className="min-h-screen flex items-center justify-center p-4"
+    >
+      <div className="max-w-sm mx-auto">
+        <img
+          src={communities}
+          alt="MySkin iPhone Login + SignUp"
+          className="w-full h-auto rounded-2xl"
+        />
       </div>
     </div>,
 
