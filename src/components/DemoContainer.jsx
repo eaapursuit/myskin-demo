@@ -3,7 +3,7 @@ import WhatIsMySkin from "./WhatIsMySkin";
 import signupMockup from "../assets/MySkinSignUpPage.png";
 import quizIntro from "../assets/MySkinQuizIntro.png";
 import uploadPhoto from "../assets/MySkinUploadPhoto.png";
-import uploadModal from "../assets/MySkinUploadPhotoModal.png";
+// import uploadModal from "../assets/MySkinUploadPhotoModal.png";
 import skinTypeConcerns from "../assets/MySkinTypeConcerns.png";
 import skinGoalsIngredients from "../assets/MySkinGoalsConcerns.png";
 import skinGoalsComplete from "../assets/MySkinGoalsConcernsDone.png";
@@ -68,18 +68,18 @@ export default function DemoContainer({ onExit }) {
     </div>,
 
     //4. Photo-modal
-    <div
-      key={"upload-photo-modal"}
-      className="min-h-screen flex items-center justify-center p-4"
-    >
-      <div className="max-w-sm mx-auto">
-        <img
-          src={uploadModal}
-          alt="MySkin Upload Photo Modal"
-          className="w-full h-auto rounded-2xl"
-        />
-      </div>
-    </div>,
+    // <div
+    //   key={"upload-photo-modal"}
+    //   className="min-h-screen flex items-center justify-center p-4"
+    // >
+    //   <div className="max-w-sm mx-auto">
+    //     <img
+    //       src={uploadModal}
+    //       alt="MySkin Upload Photo Modal"
+    //       className="w-full h-auto rounded-2xl"
+    //     />
+    //   </div>
+    // </div>,
 
     //5. Skin Type and Concerns
     <div
