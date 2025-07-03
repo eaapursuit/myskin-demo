@@ -24,11 +24,11 @@ export default function App() {
 
       <main
         id="scroll-area"
-        className="h-screen overflow-y-auto snap-y snap-mandatory pt-20 "
+        className="h-screen overflow-y-auto snap-y snap-mandatory  "
       >
         <section
           id="whatismyskin"
-          className="snap-start w-full bg-cream min-h-screen flex overflow-y-auto "
+          className="snap-start w-full bg-cream h-screen flex overflow-y-auto "
         >
           {pages[activeStep]}
         </section>

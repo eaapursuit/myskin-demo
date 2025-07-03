@@ -36,7 +36,7 @@ MySkin is built on the belief that the journey to clear skin should not be walke
                   
                 ].map((value, i) => (
                   <div key={i} className="group">
-                    <div className="bg-[#0A0A06] p-3 md:p-8 rounded-lg md:rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 border border-[#A68671]/20 hover:border-[#A68671]/40">
+                    <div className="flex flex-col h-full bg-[#0A0A06] p-3 md:p-8 rounded-lg md:rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 border border-[#A68671]/20 hover:border-[#A68671]/40">
                       <div 
                         className="w-8 h-8 md:w-16 md:h-16 rounded-full flex items-center justify-center mb-3 md:mb-6 mx-auto"
                         style={{ backgroundColor: value.color }}

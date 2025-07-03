@@ -53,7 +53,8 @@ export default {
         "9/16": "56.25%",
       },
       screens: {
-        xs: "480px",
+        xxs: '320px',
+        xs: "375px",
       },
       width: {
         formField: "calc(50% - 1rem)",
