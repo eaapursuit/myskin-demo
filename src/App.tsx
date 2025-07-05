@@ -24,7 +24,7 @@ export default function App() {
 
       <main
         id="scroll-area"
-        className="h-screen overflow-y-auto snap-y snap-mandatory  "
+        className="h-screen overflow-y-auto snap-y snap-mandatory pt-20 "
       >
         <section
           id="whatismyskin"
@@ -49,7 +49,7 @@ export default function App() {
         </section>
         <section
           id="emailsignup"
-          className="snap-section w-full min-h-[calc(100vh-5rem)] flex flex-col justify-center"
+          className="snap-start w-full h-screen bg-[#aa663c] flex flex-col justify-center"
         >
           <EmailSignUp />
         </section>
